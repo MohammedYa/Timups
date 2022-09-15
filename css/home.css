@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.home {
+    
+   display: flex;
+   background-color: #3B4A6B;
+   border-radius: 0 0 0 350px;
+
+}
+.slider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bolder;
+}
+.caption{
+    font-size: 1.4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.btncontact{
+    width: 200px;
+    background-color: #e6c511;
+}
+.btncontact a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    
+}
+.soical{
+    position: relative;
+    height: 100vh;
+    padding-left: 45px;
+    background-color: #fff;
+
+    
+}
+.icon{ 
+    
+width: 45px;
+position:absolute;
+top: 40%;
+left:0px;
+display: flex;
+flex-direction: column;
+color: #999999;
+}
+.carousel-indicators{
+    position: absolute;
+    top: 100%;
+    left: 40%;
+}
+.carousel-indicators button
+{
+    width: 20px !important;
+    height: 20px !important;
+    margin-left: 10px;
+    border-radius: 50%;
+
+}
+.carousel-indicators .active  {
+    transform: scale(1.5,1.5);
+    background-color: #e6c511!important;
+}
+@media screen {
+    
+}

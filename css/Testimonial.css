@@ -1,0 +1,30 @@
+.castomaritem{
+    background-color: #3B4A6B;
+    border-radius: 20px;
+    padding: 40px;
+    color: #fff;
+}
+.castomarPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.castomar{
+    margin: 10px;
+    border-style: dotted;
+    border-color: #F0D43A;
+    padding: 5px;
+    border-radius: 50%;
+}
+.castomaritem h5{
+    font-size: 20px;
+    margin: 10px;
+}
+.castomaritem h6{
+    color: #F0D43A;
+    font-size: 18px;
+}
+.castomaritem p{
+    font-size: 18px;
+}

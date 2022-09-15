@@ -1,0 +1,39 @@
+ .featured {
+    overflow-x: hidden;
+ }
+ .container h2{
+ font-size: 1.9rem;
+ font-weight: bolder;
+ margin-bottom: 30px;
+ }
+ .feat{
+ font-size: 20px;
+ color: black!important;
+ }
+ .featuer{
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 0 0  10px rgb(198, 191, 191);
+    transition: all .05s;
+ }
+ .featuer h4{
+ font-weight: bolder;
+ }
+ .featuer:hover{
+    background-color: #3B4A6B;
+    color: #fff;
+}
+.featuer:hover .photo{
+    
+    filter: invert(100%);
+}
+.contact h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: left;
+    margin: 50px;
+}
+.form-control{
+    border-color: black;
+}

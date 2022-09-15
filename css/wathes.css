@@ -1,0 +1,67 @@
+.watches{
+    padding: 30px;
+}
+.headline{
+font-size: 2rem;
+font-weight: bolder;
+text-align: center;
+margin: 50px;
+}
+.item{
+    background-color: #FAF9FA;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 10px  #ddcfc7;
+    border-radius: 15px;
+    position: relative;
+}
+.watch{
+    width: 97px;
+    height: 196px;
+}
+.layer{
+    border-radius: 15px 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: #F0D43A;
+}
+.captionWatches{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.captionWatches span{
+    color: #3B4A6B;
+    
+}
+.captionWatches h6{
+    font-size: 20px;
+
+}
+.view{
+    background-color: #F0D43A;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 15px;
+    color: #fff!important;
+    font-size: 20px;
+    transition: all 1s;
+}
+.view:hover{
+    transform: translate(0px,-10px);
+}

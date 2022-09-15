@@ -1,0 +1,45 @@
+footer{
+    padding: 40px;
+    color: #fff;
+   
+    background-color: #3B4A6B;
+}
+.footeritem h4{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.brands{
+    display: flex;
+    align-items: center;
+}
+.footericon{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 50%;
+    background-color: #fff;
+    color: #3B4A6B;
+}
+.footericon:hover{
+color: #F0D43A;
+}
+.send {
+    margin-top: 15px;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover,.send:hover{
+    color: #F0D43A;
+}
+.Subscribe{
+    margin-top: 20px;
+    background-color: #3B4A6B;
+    border-color: black;
+}
